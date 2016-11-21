@@ -24,15 +24,22 @@ The slides are available [on Speakerdeck](https://speakerdeck.com/ihuston/pydata
 A [shorter version of these notes](./helper-notes.md), which can be used by assistants in the tutorial
 is also provided.
 
+### AppDynamics:
+
+There are several ways to get your Python App monitored with AppDynamics. Please refer to the [installation documentation](https://docs.appdynamics.com/display/latest/Install+the+Python+Agent) and the [agent settings](https://docs.appdynamics.com/display/latest/Python+Agent+Settings) for further information.
+
+* [Use Pre-Runtime hooks](https://github.com/michaelenglert/python-cf-examples/commit/8d8a9fffd0073893c1328c5926662075282fbe1e)
+* [Use requirements.txt and manifest.yml]()
+
 ### Changes:
 
 *Update 03/10/2016*: The official CF Python buildpack now includes support for the conda package manager.
 This means there is no need to use a separate community buildpack to run apps using PyData packages.
 The tutorial has been updated to reflect this.
 
-*Update 23/11/2015*: These sample apps have been updated to use the [new Diego runtime](http://support.run.pivotal.io/entries/105844873-Migrating-Applications-from-DEAs-to-Diego). 
+*Update 23/11/2015*: These sample apps have been updated to use the [new Diego runtime](http://support.run.pivotal.io/entries/105844873-Migrating-Applications-from-DEAs-to-Diego).
 The main difference is that app instances all run on the same port inside different containers.
-The first sample app has been changed to show the instance number rather than the port so that multiple instances can be recognised. 
+The first sample app has been changed to show the instance number rather than the port so that multiple instances can be recognised.
 
 ### Getting Started
 
