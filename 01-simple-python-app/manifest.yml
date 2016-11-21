@@ -1,8 +1,7 @@
 ---
 applications:
 - name: myapp
-  memory: 128MB
-  disk_quota: 256MB
+  memory: 512MB
   random-route: true
   buildpack: python_buildpack
-  command: python hello.py
+  command: /home/vcap/app/.heroku/python/bin/pyagent run -- python hello.py
