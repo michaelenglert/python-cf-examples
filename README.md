@@ -29,7 +29,7 @@ is also provided.
 There are several ways to get your Python App monitored with AppDynamics. Please refer to the [installation documentation](https://docs.appdynamics.com/display/latest/Install+the+Python+Agent) and the [agent settings](https://docs.appdynamics.com/display/latest/Python+Agent+Settings) for further information.
 
 * [Use Pre-Runtime hooks](https://github.com/michaelenglert/python-cf-examples/commit/8d8a9fffd0073893c1328c5926662075282fbe1e)
-* [Use requirements.txt and manifest.yml]()
+* [Use requirements.txt and manifest.yml](https://github.com/michaelenglert/python-cf-examples/commit/0a9021fd2d6dcf5542aa3acd7ccf30fb3e47aac3)
 
 ### Changes:
 
