@@ -1,0 +1,1 @@
+web: /home/vcap/app/.heroku/python/bin/pyagent run -- python hello.py
