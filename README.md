@@ -30,6 +30,7 @@ There are several ways to get your Python App monitored with AppDynamics. Please
 
 * [Use Pre-Runtime hooks](https://github.com/michaelenglert/python-cf-examples/commit/8d8a9fffd0073893c1328c5926662075282fbe1e)
 * [Use requirements.txt and manifest.yml](https://github.com/michaelenglert/python-cf-examples/commit/0a9021fd2d6dcf5542aa3acd7ccf30fb3e47aac3)
+* [Use requirements.txt, manifest.yml and Procfile command start](https://github.com/michaelenglert/python-cf-examples/commit/d10475525bb82d7f7b79568197882c48212bf96b)
 
 ### Changes:
 
